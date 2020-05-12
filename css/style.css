@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Neon';
+    src: url('../src/fonts/Neon.TTF');
+}
+body {
+    background-image: url('../src/images/plano_fundo.jpg');
+    background-size: 100vw 100vh;
+    font-family: "Neon";
+    background-color: rgba(255, 255, 255, 0.200);
+    background-blend-mode: lighten;
+}
+
+.menu {
+    enable-background: unset;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li {
+    list-style: none;
+}
+
+a {
+    color: #CCFF00;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ccff00, 0 0 70px #ccff00, 0 0 80px #ccff00, 0 0 100px #ccff00, 0 0 150px #ccff00;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.site-title,
+.site-subtitle {
+    color: #CCFF00;
+    text-shadow: 0 0 10px #fff,
+                0 0 2px #fff,
+                0 0 5px #fff,
+                0 0 7px #CCFF00,
+                0 0 10px #ccff00b4,
+                0 0 15px #ccff00b4,
+                0 0 25px #ccff00b4,
+                0 0 70px #ccff00b4;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.site-subtitle {
+    font-style: italic;
+}
